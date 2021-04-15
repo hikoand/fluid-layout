@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* 헤더영역 로고포함 */
+
+body {
+  min-width: 765px;
+}
+
+#main_header{
+  height: 60px;
+  line-height: 60px;
+  padding-left: 10px;
+  border-bottom: 1px solid black;
+  background:  #1d4088;
+   color: white;
+}
+
+#main_gnb {
+  overflow: hidden;
+  border-bottom: 1px solid black;
+  background: #32394a;
+}
+
+#main_gnb > ul {
+  overflow: hidden;
+}
+
+#main_gnb > ul.left {
+  float: left;
+}
+
+#main_gnb > ul.right {
+  float: right;
+}
+
+#main_gnb > ul > li {
+  float: left;
+}
+
+#main_gnb a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+}
+
+#wrap {
+  overflow: hidden;
+  background: #71b1d1;
+}
+
+#wrap #main_lnb {
+  float: left;
+  width: 200px;
+}
+
+#wrap #content_wrap {
+  float: left;
+  width: calc(100% - 200px);
+}
+
+#wrap #main_lnb > ul > li > a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 15px;
+  border-bottom: 1px solid #96d6f6;
+  color :white;
+}
+
+#content {
+  background: white;
+  padding: 30px;
+}
+
+#main_footer {
+  padding: 10px;
+  border-top: 3px solid black;
+  text-align: center;
+}
